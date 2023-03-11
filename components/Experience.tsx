@@ -12,7 +12,7 @@ const Experience = () => {
 
       <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mt-24 md:mt-28">
         {sampleExperience.map((experience) => (
-          <ExperienceCard id={experience.id} {...experience} key={experience.id} />
+          <ExperienceCard  {...experience} key={experience.id} />
         ))}
       </div>
     </motion.div>
