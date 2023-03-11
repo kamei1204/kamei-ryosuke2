@@ -1,9 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-type Props = {}
-
-const BackGroundCircles = (props: Props) => {
+const BackGroundCircles = () => {
     return (
         <motion.div
         initial={{
@@ -18,11 +16,11 @@ const BackGroundCircles = (props: Props) => {
             duration: 2.5,
         }}
         className='flex justify-center items-center relative'>
-            <div className='border border-[#333333] rounded-full h-[200px] w-[200px] mt-52 animate-ping absolute'/>
+            <div className='border border-[#333333] rounded-full h-[100px] w-[100px] mt-52 animate-ping absolute'/>
+            <div className='border border-[#333333] rounded-full h-[200px] w-[200px] mt-52 absolute'/>
             <div className='border border-[#333333] rounded-full h-[300px] w-[300px] mt-52 absolute'/>
-            <div className='border border-[#333333] rounded-full h-[500px] w-[500px] mt-52 absolute'/>
-            <div className='border border-[#F7AB0A] rounded-full h-[650px] w-[650px] mt-52 animate-pulse absolute opacity-20'/>
-            <div className='border border-[#333333] rounded-full h-[800px] w-[800px] mt-52 absolute'/>
+            <div className='border border-[#F7AB0A] rounded-full h-[450px] w-[450px] mt-52 animate-pulse absolute opacity-20'/>
+            {/* <div className='border border-[#333333] rounded-full h-[600px] w-[600px] mt-52 absolute'/> */}
         </motion.div>
     )
 }

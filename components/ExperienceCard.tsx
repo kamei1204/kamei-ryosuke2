@@ -19,7 +19,7 @@ type Props = {
 
 const ExperienceCard = (props:Props) => {
     return (
-        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[500px] xl:w-[600px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden text-center'>
+        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 h-[550px] md:h-[600px] w-[400px] md:w-[500px] xl:w-[600px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden text-center'>
             <motion.img
                 initial={{
                     y: -100 ,
@@ -33,7 +33,7 @@ const ExperienceCard = (props:Props) => {
             />
 
                 <div className='px-0 md:px-10'>
-                    <h4 className='text-4xl font-light underline decoration-[#F7AB0A]'>{props.title}</h4>
+                    <h4 className='text-3xl font-light underline decoration-[#F7AB0A]'>{props.title}</h4>
                     <p className='mt-2 font-bold text-xl'>{props.description}</p>
                         <div className='flex space-x-2 mt-2' key={props.cardId}>
                                 <img src={props.imgUrl} alt="" className='h-6 w-6 md:h-10 md:w-10 rounded-full'/>

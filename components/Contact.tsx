@@ -23,7 +23,7 @@ const Contact = () => {
                 Contact
             </h3>
             <div className='relative top-10 flex flex-col space-y-10'>
-                <h4 className='text-xl font-semibold text-center'>
+                <h4 className='text-lg font-semibold text-center'>
                     <span className='decoration-[#F7AB0A]/50 underline'>ぜひ気軽にご連絡お待ちしています</span>
                 </h4>
 
@@ -46,8 +46,8 @@ const Contact = () => {
                         <p>+Japan Fukuoka 福岡県 福岡市 東区</p>
                     </div>
                 </div>
-                <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 mx-auto w-[400px]'>
-                    <div className='flex space-x-1'>
+                <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 mx-auto w-[320px] md:w-[500px]'>
+                    <div className='flex space-y-1 flex-col'>
                         <input {...register('name')} placeholder='Name' className='contactInput' type="text" />
                         <input {...register('email')} placeholder='Email' className='contactInput' type="email" />
                     </div>
