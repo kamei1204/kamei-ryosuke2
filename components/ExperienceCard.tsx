@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 type Props = {
-    id: number,
+    id?: number,
     mainImg?  : string,
     imgUrl?  : string,
     imgUrl2? : string,
