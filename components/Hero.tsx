@@ -31,13 +31,13 @@ const Hero = () => {
                         <button className="px-5 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A] hover:text-[#F7AB0A] cursor-pointer">about</button>
                     </Link>
                     <Link href="#experience">
-                        <button className="heroButton">experience</button>
+                        <button className="px-5 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A] hover:text-[#F7AB0A] cursor-pointer">experience</button>
                     </Link>
                     <Link href="#skills">
-                        <button className="heroButton">skills</button>
+                        <button className="px-5 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A] hover:text-[#F7AB0A] cursor-pointer">skills</button>
                     </Link>
                     <Link href="#projects">
-                        <button className="heroButton">projects</button>
+                        <button className="px-5 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A] hover:text-[#F7AB0A] cursor-pointer">projects</button>
                     </Link>
                 </div>
             </div>
