@@ -67,7 +67,7 @@ const sampleSkills = [
     },
 ]
 
-const Skills = (props: Props) => {
+const Skills = () => {
     return (
         <motion.div
             initial={{ opacity: 0 }}

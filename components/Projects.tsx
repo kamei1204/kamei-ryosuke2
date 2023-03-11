@@ -14,7 +14,7 @@ const Projects = () => {
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">projects</h3>
 
         <div className="flex relative top-12 w-full overflow-x-scroll snap-x snap-mandatory z-20">
-            {sampleProject.map((project,i) => (
+            {sampleProject.map((project) => (
                 <>
                 <div key={project.id} className="relative w-screen flex flex-shrink-0 snap-center flex-col space-y-5 items-center justify-center  p-10 md:p-44 h-[100vh]">
                     <Link href={project.href}>
