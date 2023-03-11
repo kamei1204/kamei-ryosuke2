@@ -13,10 +13,10 @@ const Projects = () => {
     className="relative h-screen flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">projects</h3>
 
-        <div className="flex relative top-12 w-full overflow-x-scroll snap-x snap-mandatory z-20">
+        <div className="flex relative top-8 w-full overflow-x-scroll snap-x snap-mandatory z-20">
             {sampleProject.map((project) => (
                 <>
-                <div key={project.id} className="relative w-screen flex flex-shrink-0 snap-center flex-col space-y-5 items-center justify-center  p-10 md:p-44 h-[100vh]">
+                <div key={project.id} className="relative w-screen flex flex-shrink-0 snap-center flex-col space-y-5 items-center justify-center  p-10 md:p-44 h-screen">
                     <Link href={project.href}>
                         <motion.img
                         initial={{ y:-300, opacity: 0 }}

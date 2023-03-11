@@ -7,7 +7,7 @@ type Props = {};
 
 const Hero = () => {
     const [text, count] = useTypewriter({
-    words: ["name is Ryosuke Kamei", "Loves-BullDog.tsx ", "<LovesToCodeMore/>"],
+    words: ["name is Kamei", "Loves-BullDog.tsx ", "<LovesToCodeMore/>"],
     loop: true,
     delaySpeed: 2000,
     });
@@ -15,7 +15,7 @@ const Hero = () => {
     return (
         <div className="flex flex-col h-screen items-center justify-center space-y-8 text-center overflow-hidden">
             <BackGroundCircles />
-            <img src="/sunny.png" alt=""  className="rounded-full relative mx-auto h-36 w-36  object-cover" />
+            <img src="/sunny7.png" alt=""  className="rounded-full relative mx-auto h-32 w-32 md:h-40 md:w-40  object-cover z-30" />
 
             <div className="z-20">
                 <h2 className="text-sm text-gray-400 pb-2 tracking-[15px]">

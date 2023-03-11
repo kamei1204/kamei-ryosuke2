@@ -19,7 +19,7 @@ export const sampleExperience = [
         mainImg: "/tailwindcss.png",
         imgUrl : "/html.png",
         imgUrl2: "/css.png",
-        imgUrl3: "/react.png",
+        imgUrl3: "/icons8-反応する-200.png",
         imgUrl4: "/ts.png",
         title  : "tailwind css",
         description : "cssフレームワーク",

@@ -14,7 +14,7 @@ const About = () => {
 
             <motion.img
                 initial={{
-                    y      : -200 ,
+                    x      : -100 ,
                     opacity: 0,
                 }}
                 transition={{
@@ -22,11 +22,11 @@ const About = () => {
                 }}
                 whileInView={{
                     opacity: 1,
-                    y      : 0,
+                    x      : 0,
                 }}
                 viewport={{ once: true }}
                 src="/sunny.png" alt=""
-                className='relative top-16 flex-shrink-0 w-32 h-32 rounded-full object-cover md:rounded-lg md:w-60 md:h-80 xl:w-[450px] xl:h-[500px]'
+                className='relative top-16 flex-shrink-0 w-28 h-28 rounded-full object-cover md:rounded-lg md:w-60 md:h-80 xl:w-[450px] xl:h-[500px] z-40'
             />
 
             <div className='relative top-2 space-y-10  md:px-10 md:mt-4'>
@@ -35,7 +35,7 @@ const About = () => {
                     亀井 亮輔(カメイ  リョウスケ)です
                 </h4>
             
-                <p className='text-sm mt-4 mx-4'>
+                <p className='text-xs mt-4 mx-4'>
                     <span className='font-bold underline decoration-[#F7AB0A]'></span><br/>
                     飲食店調理師12年目の現役調理師ですが
                     2年ほど前から自分でアプリ作りたい!
