@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 type Props = {
-    id?: number,
+    cardId?: number,
     mainImg?  : string,
     imgUrl?  : string,
     imgUrl2? : string,
@@ -35,7 +35,7 @@ const ExperienceCard = (props:Props) => {
                 <div className='px-0 md:px-10'>
                     <h4 className='text-4xl font-light underline decoration-[#F7AB0A]'>{props.title}</h4>
                     <p className='mt-2 font-bold text-xl'>{props.description}</p>
-                        <div className='flex space-x-2 mt-2' key={props.id}>
+                        <div className='flex space-x-2 mt-2' key={props.cardId}>
                                 <img src={props.imgUrl} alt="" className='h-6 w-6 md:h-10 md:w-10 rounded-full'/>
                                 <img src={props.imgUrl2} alt="" className='h-6 w-6 md:h-10 md:w-10 rounded-full'/>
                                 <img src={props.imgUrl3} alt="" className='h-6 w-6 md:h-10 md:w-10 rounded-full'/>

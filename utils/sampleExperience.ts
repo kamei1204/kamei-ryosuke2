@@ -1,6 +1,6 @@
 export const sampleExperience = [
     {
-        id: 1,
+        cardId: 1,
         mainImg: "/next.png",
         imgUrl: "/html.png",
         imgUrl2: "/css.png",
@@ -15,7 +15,7 @@ export const sampleExperience = [
         point4 : "vercelとの連携で簡単に安心してデプロイできる",
     },
     {
-        id: 2,
+        cardId: 2,
         mainImg: "/tailwindcss.png",
         imgUrl : "/html.png",
         imgUrl2: "/css.png",
@@ -30,7 +30,7 @@ export const sampleExperience = [
         point4 : "-",
     },
     {
-        id: 3,
+        cardId: 3,
         mainImg: "/chakra.png",
         imgUrl : "/html.png",
         imgUrl2: "/css.png",
@@ -45,7 +45,7 @@ export const sampleExperience = [
         point4 : "-",
     },
     {
-        id: 4,
+        cardId: 4,
         mainImg: "/React.png",
         imgUrl : "/html.png",
         imgUrl2: "/css.png",
@@ -60,7 +60,7 @@ export const sampleExperience = [
         point4 : "JavaScriptのライブラリとして将来性が高い",
     },
     {
-        id: 5,
+        cardId: 5,
         mainImg: "/motion2.png",
         imgUrl : "/html.png",
         imgUrl2: "/css.png",
