@@ -29,11 +29,11 @@ const ExperienceCard = (props:Props) => {
                 transition={{ duration: 1.2 }}
                 viewport={{ once: true }}
                 src={props.mainImg} alt=""  
-                className='h-20 w-20 md:h-28 md:w-28 rounded-full  object-cover object-center'
+                className='h-16 w-16 md:h-28 md:w-28 rounded-full  object-cover object-center'
             />
 
                 <div className='px-0 md:px-10'>
-                    <h4 className='text-3xl font-light underline decoration-[#F7AB0A]'>{props.title}</h4>
+                    <h4 className='text-2xl sm:text-3xl font-light underline decoration-[#F7AB0A]'>{props.title}</h4>
                     <p className='mt-2 font-bold text-xl'>{props.description}</p>
                         <div className='flex space-x-2 mt-2' key={props.cardId}>
                                 <img src={props.imgUrl} alt="" className='h-6 w-6 md:h-10 md:w-10 rounded-full'/>
@@ -44,7 +44,7 @@ const ExperienceCard = (props:Props) => {
                     
                         <p className='uppercase py-5 text-gray-300 underline decoration-[#F7AB0A]'>使用理由</p>
 
-                        <ul className='list-disc space-y-4 ml-5 text-xs md:text-md'>
+                        <ul className='list-disc space-y-4 ml-5 mx-2 text-xs md:text-md'>
                             <li>{ props.point } </li>
                             <li>{ props.point1 } </li>
                             <li>{ props.point2 } </li>

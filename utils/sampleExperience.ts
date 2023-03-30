@@ -46,7 +46,7 @@ export const sampleExperience = [
     },
     {
         cardId: 4,
-        mainImg: "/React.png",
+        mainImg: "/react.png",
         imgUrl : "/html.png",
         imgUrl2: "/css.png",
         imgUrl3: "/javascript.png",

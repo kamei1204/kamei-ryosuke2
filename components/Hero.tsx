@@ -15,7 +15,9 @@ const Hero = () => {
     return (
         <div className="flex flex-col h-screen items-center justify-center space-y-8 text-center overflow-hidden">
             <BackGroundCircles />
-            <img src="/sunny7.png" alt=""  className="rounded-full relative mx-auto h-32 w-32 md:h-40 md:w-40  object-cover z-30" />
+            <div>
+                <img src="/sunny7.png" alt=""  className="rounded-full relative mx-auto h-32 w-32 md:h-40 md:w-40  object-cover z-30" />
+            </div>
 
             <div className="z-20">
                 <h2 className="text-sm text-gray-400 pb-2 tracking-[15px]">
@@ -31,7 +33,7 @@ const Hero = () => {
                         <button className="px-4 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A] hover:text-[#F7AB0A] cursor-pointer">about</button>
                     </Link>
                     <Link href="#experience">
-                        <button className="px-4 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A] hover:text-[#F7AB0A] cursor-pointer">experience</button>
+                        <button className="px-4 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A] hover:text-[#F7AB0A] cursor-pointer">framework</button>
                     </Link>
                     <Link href="#skills">
                         <button className="px-4 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A] hover:text-[#F7AB0A] cursor-pointer">skills</button>

@@ -15,7 +15,7 @@ const Skill:React.FC<directionProps> = ({ directionLeft, skill }) => {
         <div className='group relative flex cursor-pointer'>
             <motion.img
             initial={{ 
-                x: directionLeft ? -100 : 100 ,
+                x: directionLeft ? -150 : 150 ,
                 opacity: 0,
             }}
             transition={{
@@ -25,7 +25,7 @@ const Skill:React.FC<directionProps> = ({ directionLeft, skill }) => {
                 x: 0 , opacity: 1 ,
             }}
             src={skill.img} alt="" 
-            className='rounded-full border rounded-gray-500 object-cover w-16 h-16 md:w-24 md:h-24  filter group-hover:grayscale transition duration-300 ease-in-out'/>
+            className='rounded-full border rounded-gray-500 object-cover w-16 h-16 md:w-20 md:h-20  filter group-hover:grayscale transition duration-300 ease-in-out'/>
             <div className='absolute opacity-0 group-hover:opacity-80 group-hover:bg-white transition duration-300 ease-in-out h-16 w-16 md:w-24 md:h-24 rounded-full'>
                 <div className='flex items-center justify-center h-full'>
                     <p className='text-2xl font-bold text-black opacity-100'>{skill.level}</p>

@@ -71,7 +71,7 @@ const Skills = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 2 }}
-            className="h-[90vh] flex flex-col relative text-center md:text-left xl:flex-row xl:px-10 min-h-screen justify-center xl:space-y-0 mx-20 items-center">
+            className="h-[80vh] flex flex-col relative text-center md:text-left xl:flex-row xl:px-10 min-h-screen justify-center xl:space-y-0 mx-20 items-center">
         <h3 className="absolute top-32 uppercase tracking-[20px] text-gray-600 text-2xl">
             skills
         </h3>
@@ -80,7 +80,7 @@ const Skills = () => {
             hover over a skill for current 
         </h3>
 
-        <div className="absolute top-80 grid grid-cols-3 gap-5">
+        <div className="absolute top-72  grid grid-cols-3 gap-5">
             {sampleSkills.slice(0 ,sampleSkills.length / 2).map((skill) => (
                 <Skill key={skill.id} skill={skill}/>
             ))}
